@@ -1,0 +1,10 @@
+{
+  "name": "marf-coin",
+  "version": "1.0.0",
+  "description": "marf-coin, the first awesome coin made in Node.JS",
+  "main": "src/server.js",
+  "repository": "https://github.com/marf3927/marf-coin",
+  "author": "marf",
+  "license": "marf",
+  "private": null
+}
