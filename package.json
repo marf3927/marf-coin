@@ -6,5 +6,8 @@
   "repository": "https://github.com/marf3927/marf-coin",
   "author": "marf",
   "license": "marf",
-  "private": null
+  "private": null,
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
 }
