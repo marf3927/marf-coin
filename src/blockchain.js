@@ -107,7 +107,7 @@ const replaceChain = candidateChain => {
 
 const addBlockToChain = newBlock => {
     if(isNewBlockValid(candidateBlock, getLastBlock())){
-        blockchain.push(candidateBlock);
+        getBlockChain().push(candidateBlock);
         return true
     } else {
         return false;
