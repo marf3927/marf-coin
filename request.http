@@ -1,6 +1,24 @@
 
-GET http://127.0.0.1:3455/
-
+GET http://127.0.0.1:3000/blocks
 
 
 ###
+GET http://127.0.0.1:4000/blocks
+
+
+###
+
+POST http://127.0.0.1:3000/blocks
+content-type: application/json
+
+{
+    "data" : "hello world"
+}
+
+###
+POST http://127.0.0.1:3000/peers
+content-type: application/json
+
+{
+    "peer": "ws://localhost:4000"
+}
